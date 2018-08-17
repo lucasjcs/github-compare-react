@@ -12,6 +12,7 @@ export const Repository = styled.div`
     border-radius: 3px;
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
 
     header{
         padding: 30px;
@@ -42,6 +43,9 @@ export const Repository = styled.div`
                 font-size: 12px;
                 color: #999;
                 font-style: italic;
+            }
+            &:nth-child(2n-1){
+                background: #f5f5f5;
             }
         }
     }
